@@ -1,0 +1,13 @@
+@mixin vcenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin vstart{
+  display: flex;
+  align-items: flex-start;
+}
+@mixin vend{
+  display: flex;
+  align-items: flex-end;
+}
